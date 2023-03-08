@@ -18,6 +18,10 @@ body {
 
 /* main header rules */
 header {
+    height: 300px;
+    background-image: url(../Images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: black;
     position: sticky;
     top: 0;
@@ -29,7 +33,7 @@ header {
 /* main rules here */
 #character_nav {
     text-align: center;
-    background-color: #675050;
+    background-color: #c9c9c9;
 
     background-image: url('../Images/background.png');
     background-repeat: no-repeat;
