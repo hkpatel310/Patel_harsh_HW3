@@ -103,12 +103,13 @@ article p {
     background-image: url('../Images/charachter.png');
 }
 
-#Mike { background-position: -150px 0; }
-#Dustin { background-position: -300px 0; }
-#steve { background-position: -450px 0; }
-#Will { background-position: -600px 0; }
-#jim_hopper { background-position: -750px 0; }
-.sprite:hover { background-position-y: -150px; }
+#Mike {background-position: -150px 0; }
+#Dustin {background-position: -300px 0; }
+#steve  {background-position: -450px 0; }
+#Will {background-position: -600px 0; }
+#jim_hopper {background-position: -750px 0; }
+
+.sprite:hover { background-position-y: -150px !important; }
 
 footer {
     color: white;
@@ -147,10 +148,10 @@ footer {
 }
 
 #lightbox2 { background-image: url('../images/Mike.png'); }
-#lightbox3 { background-image: url(../Images/Dustin.png);}
-#lightbox4 { background-image: url(../Images/steve.png);}
-#lightbox5 { background-image: url(../Images/will.png);}
-#lightbox6 { background-image: url(../Images/hopper.png);}
+#lightbox3 { background-image: url('../Images/Dustin.png');}
+#lightbox4 { background-image: url('../Images/steve.png');}
+#lightbox5 { background-image: url('../Images/will.png');}
+#lightbox6 { background-image: url('../Images/hopper.png');}
 .lightbox_close {
     position: relative;
     top: 20px;
@@ -175,7 +176,7 @@ footer {
 .lb_text, .lb_heading { text-align: left; }
 
 .lb_text {
-    line-height: 1.6 ;
+    line-height: 1.6 !important;
     margin-left: 0;
     padding-top: 2em;
 }
